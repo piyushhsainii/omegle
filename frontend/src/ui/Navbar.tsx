@@ -14,11 +14,11 @@ export function Navbar() {
 
   return (
     <>
-    <div className="flex justify-between">
-       <div>
-            App name
+      <div className="flex justify-between">
+        <div>
+          Konnect
         </div>
-      <div>
+        <div>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon">
@@ -38,9 +38,9 @@ export function Navbar() {
                 System
               </DropdownMenuItem>
             </DropdownMenuContent>
-        </DropdownMenu>
+          </DropdownMenu>
+        </div>
       </div>
-    </div>
     </>
   )
 }
